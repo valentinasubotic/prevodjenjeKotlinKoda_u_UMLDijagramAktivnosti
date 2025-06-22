@@ -19,22 +19,22 @@ projekat/
 
 ---
 
-##  Funkcionalnosti
+## Funkcionalnosti
 
-### 1. Leksički i sintaksni analizator
+### Leksički i sintaksni analizator
 - Implementirani pomoću ANTLR (KotlinLexer.g4 i KotlinParser.g4)
 
-### 2. Semantička analiza
+### Semantička analiza
 - Detekcija nedefinisanih promenljivih
 - Detekcija redeklaracija
 - Provjera tipova u binarnim izrazima (npr. `Int + String`)
 
-### 3. Generisanje UML dijagrama
+### Generisanje UML dijagrama
 - Prevedeni izrazi, petlje, grane, bacanja izuzetaka itd. u PlantUML kod
 - Generisanje .png dijagrama pomoću PlantUML
 
 
-##  Napomena
+## Napomena
 Ako se u kodu detektuju semantičke greške, generisanje UML dijagrama se automatski preskače.
 
 ---
