@@ -1,0 +1,12 @@
+@startuml
+start
+switch (x)
+case (1)
+:return "jedan";
+case (2)
+:return "dva";
+case (else)
+:return "nepoznat";
+endswitch
+stop
+@enduml

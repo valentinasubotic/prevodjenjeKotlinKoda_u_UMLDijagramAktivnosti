@@ -1,0 +1,20 @@
+@startuml
+start
+group try
+if (x<0) then (yes)
+:throw Exception;
+:("Negativan broj");
+endif
+:println;
+:("Sve je u redu");
+group catch (e)
+:println;
+:("Greška: "+e.message);
+end group
+group finally
+:println;
+:("Ovo se uvek izvršava");
+end group
+end group
+stop
+@enduml

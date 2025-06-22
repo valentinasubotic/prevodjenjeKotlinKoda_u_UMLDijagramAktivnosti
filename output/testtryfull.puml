@@ -1,0 +1,17 @@
+@startuml
+start
+group try
+:println;
+:("Rezultat je $rezultat");
+group catch (e)
+:println;
+:("Greška: deljenje nulom");
+end group
+group finally
+:println;
+:("Završena obrada.");
+end group
+end group
+stop
+
+@enduml

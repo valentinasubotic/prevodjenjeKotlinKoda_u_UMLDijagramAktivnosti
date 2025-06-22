@@ -1,0 +1,13 @@
+@startuml
+start
+:brojevi = arrayOf(1,2,3,4,5);
+:suma = 0;
+group for broj in brojevi
+if (broj%2==0) then (yes)
+:suma = suma + broj;
+endif
+end group
+:return suma;
+stop
+
+@enduml

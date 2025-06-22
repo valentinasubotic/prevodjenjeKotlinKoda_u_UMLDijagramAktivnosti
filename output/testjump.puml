@@ -1,0 +1,21 @@
+@startuml
+start
+switch (x)
+case (1)
+:throw Exception;
+:("Greška");
+case (2)
+:return;
+case (else)
+:return;
+endswitch
+while (true) is (true)
+if (x>5) then (yes)
+:break;
+else (no)
+:continue;
+endif
+endwhile
+stop
+
+@enduml

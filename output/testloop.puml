@@ -1,0 +1,15 @@
+@startuml
+start
+while (i<=5) is (true)
+:println;
+:(i);
+:i=i+1;
+endwhile
+while (x<3) is (true)
+:x=x+1;
+endwhile
+repeat
+:y++;
+repeat while (y<2)
+stop
+@enduml

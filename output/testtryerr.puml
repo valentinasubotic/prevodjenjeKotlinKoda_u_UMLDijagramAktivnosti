@@ -1,0 +1,10 @@
+@startuml
+start
+group try
+:println;
+:("Početak");
+:throw Exception;
+:("Greška");
+end group
+stop
+@enduml

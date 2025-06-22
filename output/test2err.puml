@@ -1,0 +1,7 @@
+@startuml
+start
+if (y>0) then (yes)
+:return;
+endif
+stop
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+start
+group try
+group catch (e)
+:println;
+:(e.message);
+:println;
+:(nedefinisanaPromenljiva);
+end group
+group finally
+:println;
+:(kraj);
+:println;
+:(josJednaNepoznata);
+end group
+end group
+stop
+
+@enduml

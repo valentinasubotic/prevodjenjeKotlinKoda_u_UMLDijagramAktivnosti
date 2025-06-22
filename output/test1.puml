@@ -1,0 +1,9 @@
+@startuml
+start
+if (x>0) then (yes)
+:return x;
+else (no)
+:return -x;
+endif
+stop
+@enduml
