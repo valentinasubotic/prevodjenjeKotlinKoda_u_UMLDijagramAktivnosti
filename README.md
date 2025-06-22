@@ -16,7 +16,7 @@ projekat/
 ├── uml_generator.py        # Python funkcija za pozivanje PlantUML-a i generisanje slike
 ├── main.py                 # Glavna skripta koja pokreće obradu i povezuje sve komponente
 └──
-
+```
 ---
 
 ## Funkcionalnosti
