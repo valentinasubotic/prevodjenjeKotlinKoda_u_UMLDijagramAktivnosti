@@ -19,7 +19,7 @@ def parse_kotlin_file(filename):
     parser = KotlinParser(stream)
     tree = parser.program()
 
-    # SEMANTIČKA ANALIZA
+    # SEMANTICKA ANALIZA
     analyzer = SemanticAnalyzer()
     errors = analyzer.analyze(tree)
     if errors:

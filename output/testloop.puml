@@ -1,13 +1,16 @@
 @startuml
 start
+:i = 1;
 while (i<=5) is (true)
 :println;
 :(i);
 :i=i+1;
 endwhile
+:x = 0;
 while (x<3) is (true)
 :x=x+1;
 endwhile
+:y = 0;
 repeat
 :y++;
 repeat while (y<2)

@@ -1,11 +1,12 @@
 @startuml
 start
 group try
+:rezultat = 100/broj;
 :println;
 :("Rezultat je $rezultat");
 group catch (e)
 :println;
-:("Greška: deljenje nulom");
+:("Greška: dijeljenje nulom");
 end group
 group finally
 :println;
@@ -13,5 +14,4 @@ group finally
 end group
 end group
 stop
-
 @enduml

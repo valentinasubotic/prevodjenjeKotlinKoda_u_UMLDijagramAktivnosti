@@ -11,7 +11,7 @@ projekat/
 ├── output/                  # Generisani .puml i .png fajlovi
 ├── grammar/                # .g4 fajlovi za leksički i sintaksni analizator (KotlinLexer.g4, KotlinParser.g4)
 ├── antlr_gen/              # Generisani ANTLR fajlovi (KotlinLexer.py, KotlinParser.py, itd.)
-├── semantic_analyzer.py    # Semantički analizator (nedefinisane promjenljive + provera tipova)
+├── semantic_analyzer.py    # Semantički analizator (nedefinisane promjenljive + provjera tipova)
 ├── diagram_generator.py    # Listener koji pretvara AST u PlantUML kod
 ├── uml_generator.py        # Python funkcija za pozivanje PlantUML-a i generisanje slike
 ├── main.py                 # Glavna skripta koja pokreće obradu i povezuje sve komponente
